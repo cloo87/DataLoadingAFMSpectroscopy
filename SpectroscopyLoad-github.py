@@ -17,7 +17,7 @@ def flatten(ls):
 #%% LOADING RAW DATA
 
 # ! Insert file path of data folder
-path = r"C:\Users\xavie\OneDrive\Desktop\PhD_doc\DataLOO\project3\20-21April\PS210419" 
+path = r" " 
 os.chdir(path)
 
 """
@@ -30,7 +30,7 @@ and 2 represents retrace (1 can be used to represent trace).
 
 """
 # ! Insert name of the file
-file = "PnS_set2"
+file = " "
 
 txt_file = []
 
