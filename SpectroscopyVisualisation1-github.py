@@ -6,10 +6,10 @@ from matplotlib.ticker import MultipleLocator, AutoMinorLocator
 
 
 #%% Importing data 
-filepath = r"C:\Users\xavie\OneDrive\Desktop\PhD_doc\DataLOO\project3\20-21April\PS210419"
+filepath = r"" # insert file path of folder containing the data file
 os.chdir(filepath)
 
-filename = "PnS_set2.csv"
+filename = "filename.csv" # insert the filename (All data have been compiled into .csv format using SpectroscopyLoad)
 df = pd.read_csv(filename)
 
 # check for missing data, datatype, and whether number of columns is correct
@@ -19,7 +19,7 @@ df.info()
 
 #Dimension of figure
 #Width ; height ; sample name 
-fig_width = 10 ; fig_height = 8 ; sample = "CH0577" 
+fig_width = 10 ; fig_height = 8 ; sample = "insert name" #sample name inserted will be included in the title of the figures. 
 
 #font type
 fonttype = "Arial"
